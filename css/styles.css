@@ -1,1 +1,70 @@
 /* All styles to be written here... */
+
+body {
+    border: 20px solid #00ced1;
+}
+
+.container {
+    width: 950px;
+    color: #2f4f4f;
+    margin: 0 auto;  
+}
+
+
+header{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #789;
+}
+
+h1:hover {
+    color: #bc8f8f;
+}
+
+.intro {
+    background-color: #7fffd4;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.first{
+    background-color:  #2f4f4f;
+    color: #00ced1;
+    font-size: 20px;
+    padding: 60px;
+}
+
+.first:hover {
+    color: #ffa07a;
+    background-color: #696969;
+}
+
+.second{
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.second h2 {
+    color: #789;
+    text-transform: uppercase;
+}
+
+.second h2:hover {
+    color: #ff8c00;
+    text-transform: capitalize;
+}
+
+.second p:hover {
+    color: #ff8c00;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
+img:hover {
+    border: 10px dotted #dc143c;
+}
